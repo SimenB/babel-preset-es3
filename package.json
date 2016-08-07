@@ -4,13 +4,15 @@
   "description": "Preset for Babel's ES3 transformations",
   "scripts": {
     "pretest": "eslint .",
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "postpublish": "git push --follow-tags"
   },
   "keywords": [
     "babel-preset",
     "babel",
     "es3"
   ],
+  "files": ["index.js"],
   "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
   "repository": "SimenB/babel-preset-es3",
   "license": "MIT",
