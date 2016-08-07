@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Preset for Babel's ES3 transformations",
   "scripts": {
     "pretest": "eslint .",
@@ -12,7 +12,9 @@
     "babel",
     "es3"
   ],
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
   "repository": "SimenB/babel-preset-es3",
   "license": "MIT",
