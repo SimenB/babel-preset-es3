@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es3",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Preset for Babel's ES3 transformations",
   "scripts": {
     "pretest": "eslint .",
