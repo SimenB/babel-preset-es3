@@ -1,0 +1,25 @@
+{
+  "name": "babel-preset-es3",
+  "version": "0.0.1",
+  "description": "Preset for Babel's ES3 transformations",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "babel-preset",
+    "babel",
+    "es3"
+  ],
+  "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
+  "repository": "SimenB/babel-preset-es3",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+    "babel-plugin-transform-es3-property-literals": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-simenb-base": "^2.0.0"
+  }
+}

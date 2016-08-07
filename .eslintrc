@@ -1,0 +1,6 @@
+{
+  "extends": "simenb-base/legacy",
+  "rules": {
+    "global-require": "off"
+  }
+}
