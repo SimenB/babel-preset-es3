@@ -2,6 +2,7 @@
 
 [![npm version][npm-image]][npm-url]
 [![Dependency Status][david-image]][david-url]
+[![Build Status][travis-image]][travis-url]
 
 > Babel preset for two ES3 transforms `transform-es3-member-expression-literals` and `transform-es3-property-literals`
 
@@ -42,3 +43,5 @@ require("babel-core").transform("code", {
 [npm-image]: https://img.shields.io/npm/v/babel-preset-es3.svg
 [david-url]: https://david-dm.org/SimenB/babel-preset-es3
 [david-image]: https://img.shields.io/david/SimenB/babel-preset-es3.svg
+[travis-url]: https://travis-ci.org/SimenB/babel-preset-es3
+[travis-image]: https://travis-ci.org/SimenB/babel-preset-es3.svg?branch=master
