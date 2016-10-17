@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "eslint": "^3.8.0",
-    "eslint-config-simenb-base": "^5.0.0"
+    "eslint-config-simenb-base": "^7.0.1"
   }
 }
