@@ -2,6 +2,7 @@
 
 [![npm version][npm-image]][npm-url]
 [![Dependency Status][david-image]][david-url]
+[![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 [![Build Status][travis-image]][travis-url]
 
 > Babel preset for two ES3 transforms `transform-es3-member-expression-literals` and `transform-es3-property-literals`
@@ -45,3 +46,5 @@ require("babel-core").transform("code", {
 [david-image]: https://img.shields.io/david/SimenB/babel-preset-es3.svg
 [travis-url]: https://travis-ci.org/SimenB/babel-preset-es3
 [travis-image]: https://travis-ci.org/SimenB/babel-preset-es3.svg?branch=master
+[greenkeeper-url]: https://greenkeeper.io/
+[greenkeeper-image]: https://badges.greenkeeper.io/SimenB/babel-preset-es3.svg
