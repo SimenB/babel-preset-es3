@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "description": "Preset for Babel's ES3 transformations",
   "scripts": {
-    "pretest": "eslint .",
+    "lint": "eslint .",
+    "pretest": "npm run lint -s",
     "test": "echo \"Error: no test specified\"",
     "postpublish": "git push --follow-tags"
   },
@@ -23,8 +24,8 @@
     "babel-plugin-transform-es3-property-literals": "^6.8.0"
   },
   "devDependencies": {
-    "eslint": "^3.8.0",
-    "eslint-config-simenb-base": "^12.1.2",
+    "eslint": "^4.3.0",
+    "eslint-config-simenb-base": "^13.0.0",
     "prettier": "^1.0.2"
   }
 }
